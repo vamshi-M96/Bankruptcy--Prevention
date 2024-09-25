@@ -37,7 +37,7 @@ with c1:
 
 
 #model =load(open("C:/Users/Nitro V 15/Desktop/excelr-project1/New folder/finalpickl/Bankruptancy.pkl",'rb'))
-model =load(open(,'rb'))
+model =load(open('Bankruptancy.pkl','rb'))
 pred = model.predict(df)
 pred_prob=model.predict_proba(df)
 
