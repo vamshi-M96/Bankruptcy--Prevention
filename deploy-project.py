@@ -36,7 +36,8 @@ with c1:
     df = input_feature()
 
 
-model =load(open("C:/Users/Nitro V 15/Desktop/excelr-project1/New folder/finalpickl/Bankruptancy.pkl",'rb'))
+#model =load(open("C:/Users/Nitro V 15/Desktop/excelr-project1/New folder/finalpickl/Bankruptancy.pkl",'rb'))
+model =load(open(,'rb'))
 pred = model.predict(df)
 pred_prob=model.predict_proba(df)
 
